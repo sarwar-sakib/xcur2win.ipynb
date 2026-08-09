@@ -30,7 +30,7 @@ The excellent [`win2xcur`](https://github.com/quantum5/win2xcur) tool by [quantu
 - The notebook opens in your browser. **No extra permissions are requested** – only the standard Colab runtime is used.
 
 **Option B – Self‑hosted (no login)**
-- Download the [`Xcursor_to_Windows.ipynb`](https://raw.githubusercontent.com/sarwar-sakib/xcur2win.ipynb/main/xcur2win.ipynb) file.
+- Download the [`xcur2win.ipynb`](https://raw.githubusercontent.com/sarwar-sakib/xcur2win.ipynb/main/xcur2win.ipynb) file.
 - Go to [Google Colab](https://colab.research.google.com/) and click **File → Upload notebook**.
 - Upload the `.ipynb` file you just downloaded.
 
