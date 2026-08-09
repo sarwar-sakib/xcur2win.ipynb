@@ -1,5 +1,4 @@
 # xcur2win.ipynb
-# xcur2win_online
 # 🖱️ Xcursor to Windows Cursors – Colab Edition
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/sarwar-sakib/xcur2win.ipynb/blob/main/Xcursor_to_Windows.ipynb)
