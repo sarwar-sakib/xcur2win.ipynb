@@ -11,9 +11,9 @@
 
 ## 📖 The Story
 
-There are thousands of beautiful cursor themes for Linux (Xcursor format) on sites like [Gnome‑look.org](https://www.gnome-look.org/browse?cat=107&ord=latest). Windows users, however, are often left out – they can’t use these themes without a tedious manual conversion process.
+There are thousands of beautiful cursor themes for Linux (Xcursor format) on sites like <a href="https://www.gnome-look.org/browse?cat=107&ord=latest" target="_blank" rel="noopener noreferrer">Gnome‑look.org</a>. Windows users, however, are often left out – they can’t use these themes without a tedious manual conversion process.
 
-The excellent [`win2xcur`](https://github.com/quantum5/win2xcur) tool by [quantum5](https://github.com/quantum5) does the heavy lifting, but it requires Python, ImageMagick, and command‑line know‑how. This project wraps `win2xcur` into a **zero‑setup Google Colab notebook** – just upload your theme zip and download the ready‑to‑install Windows package.
+The excellent <a href="https://github.com/quantum5/win2xcur" target="_blank" rel="noopener noreferrer">`win2xcur`</a> tool by <a href="https://github.com/quantum5" target="_blank" rel="noopener noreferrer">quantum5</a> does the heavy lifting, but it requires Python, ImageMagick, and command‑line know‑how. This project wraps `win2xcur` into a **zero‑setup Google Colab notebook** – just upload your theme zip and download the ready‑to‑install Windows package.
 
 **All credit for the actual conversion logic goes to quantum5 – this is merely a friendly front‑end.**
 
@@ -22,7 +22,7 @@ The excellent [`win2xcur`](https://github.com/quantum5/win2xcur) tool by [quantu
 ## 🚀 How to Use (3 Simple Steps)
 
 ### 1️⃣ Get a cursor theme
-- Browse [Gnome‑look.org](https://www.gnome-look.org/browse?cat=107&ord=latest) (or any Xcursor theme site).
+- Browse <a href="https://www.gnome-look.org/browse?cat=107&ord=latest" target="_blank" rel="noopener noreferrer">Gnome‑look.org</a> (or any Xcursor theme site).
 - Download the `.zip` file of your favourite theme.
 
 ![Download a theme from Gnome-look](screenshots/gnome-look-download.png)
@@ -30,12 +30,12 @@ The excellent [`win2xcur`](https://github.com/quantum5/win2xcur) tool by [quantu
 ### 2️⃣ Convert it with Colab (choose one)
 
 **Option A – One‑click (requires a Google account)**
-- Click the **“Open In Colab”** badge above, or use [this direct link](https://colab.research.google.com/github/sarwar-sakib/xcur2win.ipynb/blob/main/xcur2win.ipynb).
+- Click the **“Open In Colab”** badge above, or use <a href="https://colab.research.google.com/github/sarwar-sakib/xcur2win.ipynb/blob/main/xcur2win.ipynb" target="_blank" rel="noopener noreferrer">this direct link</a>.
 - The notebook opens in your browser. **No extra permissions are requested** – only the standard Colab runtime is used.
 
 **Option B – Self‑hosted (no login)**
-- Download the [`xcur2win.ipynb`](https://raw.githubusercontent.com/sarwar-sakib/xcur2win.ipynb/main/xcur2win.ipynb) file.
-- Go to [Google Colab](https://colab.research.google.com/) and click **File → Upload notebook**.
+- Download the <a href="https://raw.githubusercontent.com/sarwar-sakib/xcur2win.ipynb/main/xcur2win.ipynb" target="_blank" rel="noopener noreferrer">`xcur2win.ipynb`</a> file.
+- Go to <a href="https://colab.research.google.com/" target="_blank" rel="noopener noreferrer">Google Colab</a> and click **File → Upload notebook**.
 - Upload the `.ipynb` file you just downloaded.
 
 **Then (for both options):**
@@ -76,7 +76,7 @@ The notebook is a single Python cell that:
 
 ## 🙏 Credits
 
-- **Conversion engine**: [win2xcur](https://github.com/quantum5/win2xcur) by [quantum5](https://github.com/quantum5) – an incredibly useful tool that does all the real work.
+- **Conversion engine**: <a href="https://github.com/quantum5/win2xcur" target="_blank" rel="noopener noreferrer">win2xcur</a> by <a href="https://github.com/quantum5" target="_blank" rel="noopener noreferrer">quantum5</a> – an incredibly useful tool that does all the real work.
 - **Packaging & Colab automation**: This repository simply provides a wrapper script to make the process accessible to everyone.
 
 If you find this useful, please star the original win2xcur repository – that’s where the magic happens!
