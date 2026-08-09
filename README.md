@@ -9,7 +9,7 @@
 
 ## 📖 The Story
 
-Every day, thousands of beautiful cursor themes are created for Linux (Xcursor format) and shared on sites like [Gnome‑look.org](https://www.gnome-look.org/browse?cat=107&ord=latest). Windows users, however, are often left out – they can’t use these themes without a tedious manual conversion process.
+There are thousands of beautiful cursor themes for Linux (Xcursor format) sites like [Gnome‑look.org](https://www.gnome-look.org/browse?cat=107&ord=latest). Windows users, however, are often left out – they can’t use these themes without a tedious manual conversion process.
 
 The excellent [`win2xcur`](https://github.com/quantum5/win2xcur) tool by [quantum5](https://github.com/quantum5) does the heavy lifting, but it requires Python, ImageMagick, and command‑line know‑how. This project wraps `win2xcur` into a **zero‑setup Google Colab notebook** – just upload your theme zip and download the ready‑to‑install Windows package.
 
