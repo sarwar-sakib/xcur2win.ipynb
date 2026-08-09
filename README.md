@@ -1,7 +1,7 @@
 # xcur2win.ipynb
 # 🖱️ Xcursor to Windows Cursors – Colab Edition
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/sarwar-sakib/xcur2win.ipynb/blob/main/Xcursor_to_Windows.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/sarwar-sakib/xcur2win.ipynb/blob/main/xcur2win.ipynb)
 
 > **One‑click conversion of Linux cursor themes to Windows `.cur`/`.ani` files – no installation, no terminal, just a browser.**
 
@@ -26,11 +26,11 @@ The excellent [`win2xcur`](https://github.com/quantum5/win2xcur) tool by [quantu
 ### 2️⃣ Convert it with Colab (choose one)
 
 **Option A – One‑click (requires a Google account)**
-- Click the **“Open In Colab”** badge above, or use [this direct link](https://colab.research.google.com/github/sarwar-sakib/xcur2win.ipynb/blob/main/Xcursor_to_Windows.ipynb).
+- Click the **“Open In Colab”** badge above, or use [this direct link](https://colab.research.google.com/github/sarwar-sakib/xcur2win.ipynb/blob/main/xcur2win.ipynb).
 - The notebook opens in your browser. **No extra permissions are requested** – only the standard Colab runtime is used.
 
 **Option B – Self‑hosted (no login)**
-- Download the [`Xcursor_to_Windows.ipynb`](https://raw.githubusercontent.com/sarwar-sakib/xcur2win.ipynb/main/Xcursor_to_Windows.ipynb) file.
+- Download the [`Xcursor_to_Windows.ipynb`](https://raw.githubusercontent.com/sarwar-sakib/xcur2win.ipynb/main/xcur2win.ipynb) file.
 - Go to [Google Colab](https://colab.research.google.com/) and click **File → Upload notebook**.
 - Upload the `.ipynb` file you just downloaded.
 
@@ -39,7 +39,6 @@ The excellent [`win2xcur`](https://github.com/quantum5/win2xcur) tool by [quantu
 - When prompted, upload the `.zip` file you downloaded from Gnome‑look.
 - Wait a few seconds – the converted Windows package will **automatically download** to your computer.
 
-> ✅ **No Google Drive access is needed or requested.** Everything runs inside the temporary Colab session and is deleted when you close the browser tab.
 
 ### 3️⃣ Install on Windows 11 / 10
 - Extract the downloaded `.zip` file.
@@ -48,8 +47,6 @@ The excellent [`win2xcur`](https://github.com/quantum5/win2xcur) tool by [quantu
   - Search for “mouse settings” → “Additional mouse options” → “Pointers” tab.
 - Select your new cursor scheme from the dropdown, or manually assign each cursor.
 - Click **Apply** and enjoy your new cursors!
-
-> 💡 **No command line, no Python installation, no fuss.** Just a browser and a few clicks.
 
 ---
 
@@ -74,15 +71,9 @@ If you find this useful, please star the original win2xcur repository – that�
 
 ---
 
-## 📄 License
-
-This repository (the Colab notebook and documentation) is released under the [MIT License](LICENSE).  
-The underlying `win2xcur` tool is also MIT‑licensed – see its repository for details.
-
----
-
 ## 🤝 Contributing
 
 Found a bug? Have an idea for a simpler flow?  
 Feel free to open an issue or submit a pull request. Let’s keep it **simple, portable, and beginner‑friendly**.
+---
 **Vibe coded using deepseek**
