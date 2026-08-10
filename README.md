@@ -22,7 +22,7 @@ The excellent [`win2xcur`](https://github.com/quantum5/win2xcur) tool by [quantu
 
 ### 1️⃣ Get a cursor theme
 - Browse [Gnome‑look.org](https://www.gnome-look.org/browse?cat=107&ord=latest) (or any Xcursor theme site).
-- Download the `.zip` file of your favourite theme.
+- Download the `.zip` or `.tar` file of your favourite theme.
 
 ![Download a theme from Gnome-look](screenshots/gnome-look-download.png)
 
@@ -39,7 +39,7 @@ The excellent [`win2xcur`](https://github.com/quantum5/win2xcur) tool by [quantu
 
 **Then (for both options):**
 - Run the single cell (click the ▶ button or press `Shift+Enter`).
-- When prompted, upload the `.zip` file you downloaded from Gnome‑look.
+- When prompted, upload the `.zip` or the `.tar` file you downloaded from Gnome‑look.
 
 ![Upload dialog in Colab](screenshots/colab-upload.png)
 
