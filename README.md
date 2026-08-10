@@ -40,13 +40,7 @@ The excellent [`win2xcur`](https://github.com/quantum5/win2xcur) tool by [quantu
 **Then (for both options):**
 - Run the single cell (click the ▶ button or press `Shift+Enter`).
 - When prompted, upload the `.zip` or the `.tar` file you downloaded from Gnome‑look.
-
-![Upload dialog in Colab](screenshots/colab-upload.png)
-
 - Wait a few seconds – the converted Windows package will **automatically download** to your computer. A clickable link also appears (opens in a new tab) in case the automatic download doesn’t start.
-
-![Conversion in progress](screenshots/conversion-progress.png)
-![Download link](screenshots/download-link.png)
 
 ### 3️⃣ Install on Windows 11 / 10
 - Extract the downloaded `.zip` file.
@@ -56,7 +50,6 @@ The excellent [`win2xcur`](https://github.com/quantum5/win2xcur) tool by [quantu
 - Select your new cursor scheme from the dropdown, or manually assign each cursor.
 - Click **Apply** and enjoy your new cursors!
 
-![Install context menu](screenshots/install-inf.png)
 ![Mouse Properties pointer tab](screenshots/mouse-properties.png)
 
 ---
@@ -89,4 +82,4 @@ Feel free to open an issue or submit a pull request. Let’s keep it **simple, p
 
 ---
 
-**Vibe coded using deepseek** 😎
+**Vibe coded using deepseek**
