@@ -40,7 +40,7 @@ The excellent [`win2xcur`](https://github.com/quantum5/win2xcur) tool by [quantu
 **Then (for both options):**
 - Run the single cell (click the ▶ button or press `Shift+Enter`).
 - When prompted, upload the `.zip` or the `.tar` file you downloaded from Gnome‑look.
-- Wait a few seconds – the converted Windows package will **automatically download** to your computer. A clickable link also appears (opens in a new tab) in case the automatic download doesn’t start.
+- Wait a few seconds – the converted Windows package will **automatically download** to your computer.
 
 ### 3️⃣ Install on Windows 11 / 10
 - Extract the downloaded `.zip` file.
@@ -58,11 +58,11 @@ The excellent [`win2xcur`](https://github.com/quantum5/win2xcur) tool by [quantu
 
 The notebook is a single Python cell that:
 - Installs `win2xcur` and its dependencies (ImageMagick) inside Colab.
-- Auto‑detects the cursor folder inside any uploaded `.zip` (handles both `cursors/` directories and flat structures).
+- Auto‑detects the cursor folder inside any uploaded `.zip`/ `.tar` (handles both `cursors/` directories and flat structures).
 - Reads the theme name from `index.theme` (or falls back to the folder name).
 - Runs `x2wincurtheme` (batch conversion) – if that fails, falls back to individual file conversion.
 - Packages all `.cur`/`.ani` files and a valid `install.inf` into a new `.zip` file.
-- Triggers the browser download automatically and provides a backup download link.
+- Triggers the browser download automatically.
 
 ---
 
